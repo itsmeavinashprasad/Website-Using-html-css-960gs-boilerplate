@@ -97,11 +97,9 @@ header .navbar li a:hover{
 /* main body */
 .main_body {
 	position: relative;
-	/* max-width: 980px; */
 	width: 980px;
 	
 	margin: 0px auto;
-	/*background-color: #ffff57; */
 	z-index: 0;
 	background: rgba(0, 0, 0, 0.3);
 }
@@ -251,5 +249,33 @@ textarea {
 
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1171px){
+	#width_config {
+		width: 1214px;
+	}
+
+	.main_body_wrapper {
+		position: relative;
+		top:172px;
+		min-width: 980px;
+	}
+	.brand_wrapper, header .navbar {
+		width: 1214px;
+	}
+	header .navbar{
+		float: left;
+		margin: 10px ;
+	}
+	header .navbar ul {
+		padding-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 1218px){
+	.my_footer{
+		height: 200px;
+	}
+	.social {
+		float: left;
+	}
 }
